@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import Cabecalho from '../../components/Cabecalho/cabecalho'
 import Rodape from '../../components/Rodape/rodape'
 
@@ -7,6 +9,8 @@ function Homepage() {
             <Cabecalho />
             <div className="conteudo">
                 <h1>Happy Life</h1>
+                <Link to='/contato'>Ir para Contato</Link>
+                <Link to='/'>Voltar para Login</Link>
             </div>
             < Rodape />
         </>
