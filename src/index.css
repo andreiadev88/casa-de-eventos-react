@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;700&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-
-
-.conteudo {
-  width: 100%;
-  min-height: calc(100vh - 240px);
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #FEFAE0;
+  color: #363636;
 }
+
+
+
 
