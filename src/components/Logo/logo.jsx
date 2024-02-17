@@ -1,6 +1,17 @@
+import styled from 'styled-components';
+
+const LogoContainer = styled.div`
+width: 250px;
+`
+const LogoImage = styled.img`
+heigth: 120px;
+`
+
 function Logo() {
     return (
-        <h1>Logo</h1>
+       <LogoContainer>
+        <LogoImage src="" alt='Logo AS casa de Eventos'/>
+       </LogoContainer> 
     )
 }
 

@@ -7,7 +7,7 @@ const CabecalhoContainer = styled.div `
     width: 100%;
     height: 120px;
     display: flex;
-    justfy-content: space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 0 15px;
     background-color: #5F6F52;
