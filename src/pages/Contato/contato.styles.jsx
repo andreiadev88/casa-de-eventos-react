@@ -16,12 +16,3 @@ export const Title = styled.h1`
   font-weight: 400;
   color: #163020
 `
-export const Slogan = styled.p`
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
-    line-height: 2em;
-    color: #86A789;
-`
-
-
-
