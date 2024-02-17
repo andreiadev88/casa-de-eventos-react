@@ -9,9 +9,9 @@ heigth: 120px;
 
 function Logo() {
     return (
-       <LogoContainer>
-        <LogoImage src="" alt='Logo AS casa de Eventos'/>
-       </LogoContainer> 
+        <LogoContainer>
+            <LogoImage src="" alt='Logo AS casa de Eventos' />
+        </LogoContainer>
     )
 }
 

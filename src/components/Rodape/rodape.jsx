@@ -4,7 +4,7 @@ const RodapeContainer = styled.div `
     width: 100%;
     height: 120px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     background-color: #5F6F52;
     color: #FEFAE0;
