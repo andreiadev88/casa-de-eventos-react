@@ -8,7 +8,7 @@ function Homepage() {
         <>
             <Cabecalho />
             <div className="conteudo">
-                <h1>Happy Life</h1>
+                <h1>Bem Vindos a AS Casa de Eventos</h1>
                 <Link to='/contato'>Ir para Contato</Link>
                 <Link to='/'>Voltar para Login</Link>
             </div>

@@ -5,25 +5,10 @@
 }
 
 
-.cabecalho {
- width: 100%;
- padding-top: 45px;
- padding-left: 15px;
- height: 120px;
- background-color: #001524;
- color: #FDE5D4;
-}
+
 
 .conteudo {
   width: 100%;
   min-height: calc(100vh - 240px);
 }
 
-.rodape {
-  width: 100%;
-  padding-top: 45px;
-  padding-left: 15px;
-  height: 120px;
-  background-color: #001524;
-  color: #FDE5D4;
-}
