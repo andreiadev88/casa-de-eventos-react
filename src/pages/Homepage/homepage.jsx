@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
-import { Container, Slogan, Title, Eventos, EventosLista, EventosItem, EventoTitulo, EventoImagem, EventoDataHora } from './homepage.styles';
+import {Container, Slogan, Title, Eventos, EventosLista} from './homepage.styles';
 import axios from 'axios';
 
 
 import Cabecalho from '../../components/Cabecalho/cabecalho'
 import Rodape from '../../components/Rodape/rodape'
+import Card from '../../components/Card/card'
 
 function Homepage() {
     const [eventos, setEventos] = useState([]);
@@ -31,18 +32,19 @@ function Homepage() {
                 <Eventos>
                     <EventosLista>
                         {eventos.map((evento, index) => (
-                            <EventosItem key={index}>
-                                <EventoTitulo>{ evento.titulo }</EventoTitulo>
-                                <EventoImagem src={ evento.url_da_imagem} alt={ evento.titulo} />
-                                <br />
-                                <EventoDataHora>Data & Hora: { evento.data } - { evento.horario}</EventoDataHora>
-
-                            </EventosItem>
+                            <Card
+                                key={ index }
+                                titulo={ evento.titulo }
+                                urlImagem={ evento.url_da_Imagem }
+                                data={ evento.data }
+                                horario={ evento.horario }
+                                id={ evento.id}
+                            />
                         ))}
                     </EventosLista>
-                    
+
                 </Eventos>
-                
+
             </Container>
             < Rodape />
         </>
