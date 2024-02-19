@@ -1,3 +1,36 @@
+# Sistema de casa de eventos 
+
+#Projetos desenvolvido a partir da aulas de React do curso Start Coding/Ada Tech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
