@@ -87,6 +87,7 @@ function ListaEventos() {
                         ))}
                     </CorpoTabela>
                 </Tabela>
+                <ToastContainer />
             </ListaContainer>
             < Rodape />
         </>

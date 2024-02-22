@@ -4,9 +4,11 @@
       "id": "1",
       "titulo": "Baile de Carnaval",
       "data": "12/02/2024",
+      "horario": "19:00",
       "preco": 40,
-      "evento-privado": false,
-      "url_da_imagem":"https://www.frinoticias.com.br/hf-conteudo/uploads/posts/2022/01/872_carnaval-2022-jpg.jpg"
+      "url_da_imagem":"https://www.frinoticias.com.br/hf-conteudo/uploads/posts/2022/01/872_carnaval-2022-jpg.jpg",
+      "evento-privado": false
+      
     
     },
     {
@@ -15,8 +17,9 @@
       "data": "28/02/2024",
       "horario": "19:00",
       "preco": 0,
-      "evento-privado": true,
-      "url_da_imagem": "https://cdnm.westwing.com.br/glossary/uploads/br/2021/05/17212845/Presente-de-15-anos.jpg"
+      "url_da_imagem": "https://cdnm.westwing.com.br/glossary/uploads/br/2021/05/17212845/Presente-de-15-anos.jpg",
+      "evento-privado": true
+      
     },
     {
       "id": "3",
@@ -24,8 +27,9 @@
       "data": "15/03/2024",
       "horario": "19:00",
       "preco": 0,
-      "evento-privado": true,
-      "url_da_imagem":"https://nossasbodas.com/wp-content/uploads/2021/03/Arte-Gratuita-Nossas-Bodas-de-Trigo-3-anos-de-casamento-1-scaled.jpg"
+      "url_da_imagem":"https://nossasbodas.com/wp-content/uploads/2021/03/Arte-Gratuita-Nossas-Bodas-de-Trigo-3-anos-de-casamento-1-scaled.jpg",
+      "evento-privado": true
+     
     }
   ],
   "usuarios": [
