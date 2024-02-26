@@ -26,18 +26,21 @@ const MenuLink = styled(Link)`
 `
 
 function Menu() {
-    return (
-        <MenuContainer>
-            <MenuList>
-                <MenuItem>
-                    <MenuLink to="/homepage">Homepage</MenuLink>
-                </MenuItem>
-                <MenuItem>
-                    <MenuLink to="/contato">Contato</MenuLink>
-                </MenuItem>
-            </MenuList>
-        </MenuContainer>
+  return (
+    <MenuContainer>
+      <MenuList>
+        <MenuItem>
+          <MenuLink to="/homepage">Homepage</MenuLink>
+        </MenuItem>
+        <MenuItem>
+          <MenuLink to="/contato">Contato</MenuLink>
+        </MenuItem>
+        <MenuItem>
+          <MenuLink to="/login">Login</MenuLink>
+        </MenuItem>
+      </MenuList>
+    </MenuContainer>
 
-    )
+  )
 }
 export default Menu

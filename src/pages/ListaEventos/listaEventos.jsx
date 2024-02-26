@@ -91,7 +91,7 @@ function ListaEventos() {
             </ListaContainer>
             < Rodape />
         </>
-    )
+    );
 }
 
-export default ListaEventos
+export default ListaEventos;

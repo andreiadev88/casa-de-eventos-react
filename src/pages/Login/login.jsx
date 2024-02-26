@@ -39,6 +39,9 @@ const Login = () => {
                     position: "top-rigth",
                     autoClose: 3000,
                 });
+                setTimeout(() => {
+                    navigate('/admin');
+                }, 3000);
             } else {
                 toast.error("Nome ou senha invalidos!", {
                     position: "top-rigth",
@@ -55,7 +58,7 @@ const Login = () => {
             <Sidebar>
                 <SidebarContainer>
                     <LogoContainer>
-                        <Logo src="../images/logo.svg" alt="Logomarca da casa de eventos" />
+                        <Logo src="public\images\logo.png" alt="Logomarca da casa de eventos" />
                     </LogoContainer>
                 </SidebarContainer>
             </Sidebar>

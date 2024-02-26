@@ -4,13 +4,14 @@ const LogoContainer = styled.div`
 width: 250px;
 `
 const LogoImage = styled.img`
-heigth: 120px;
+heigth: 50px;
+width: 80px;
 `
 
 function Logo() {
     return (
         <LogoContainer>
-            <LogoImage src="public\images\Logotipo de loja de aromas e essências minimalista floral verde e branco (1).png" alt='Logo AS casa de Eventos' />
+            <LogoImage src="public\images\logo.png" alt='Logo AS casa de Eventos' />
         </LogoContainer>
     )
 }

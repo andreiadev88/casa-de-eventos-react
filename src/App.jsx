@@ -9,7 +9,7 @@ import Homepage from './pages/Homepage/homepage'
 import DetalhesEvento from './pages/DetalhesEvento/detalhesEvento'
 import Contato from './pages/Contato/contato'
 
-import Exercicios from './pages/Exercicio/exercicios'
+
 
 
 import './index.css'
@@ -25,7 +25,7 @@ function App() {
                 <Route path="/adicionar-evento" element={<AdicionarEvento />} />
                 <Route path="/evento/:id" element={<DetalhesEvento />} />
                 <Route path="/contato" element={<Contato />} />
-                <Route path='/exercicios' element={<Exercicios />} />
+                
             </Routes>
         </BrowserRouter>
     )

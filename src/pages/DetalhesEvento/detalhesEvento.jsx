@@ -12,7 +12,7 @@ function DetalhesEvento() {
         <>
 
             <Cabecalho />
-            <h1>Detalhes do Evento</h1>
+            <h1>Detalhes do Evento { id }</h1>
             <Rodape />
 
         </>
